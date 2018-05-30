@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: ReproDroid
+description: Android Benchmark Reproduction Framework
+show_downloads: false
+logo: https://foellix.github.io/ReproDroid/logo.png
