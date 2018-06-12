@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 title: ReproDroid
 description: Android Benchmark Reproduction Framework
 show_downloads: false
