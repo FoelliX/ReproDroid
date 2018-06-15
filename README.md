@@ -14,7 +14,7 @@ To do so, it uses analysis tools specified in BREW's configuration file.
 All AQL-Answers are gathered by BREW. Based on these answers a final report for e.g. a benchmark is carried out.
 
 <p align="center">
-	<img src="overview.jpg" />
+	<img src="overview.png" />
 </p>
 
 The tools and results presented in the proposing paper can be downloaded for inspection here.
