@@ -9,7 +9,7 @@ ReproDroid is a framework which can be used to create, refine and execute reprod
 The complete ReproDroid framework consists of BREW and its underlying AQL-System which uses the AQL.
 The picture below summarizes how the framework works.
 BREW takes a set of apps or a complete benchmark as input and issues one AQL-Query per benchmark case.
-Then, one query after another arrives at an AQLSystem which produces one AQL-Answer per query.
+Then, one query after another arrives at an AQL-System which produces one AQL-Answer per query.
 To do so, it uses analysis tools specified in BREW's configuration file.
 All AQL-Answers are gathered by BREW. Based on these answers a final report for e.g. a benchmark is carried out.
 
@@ -25,11 +25,11 @@ In order to work with the framework, we suggest to download the up-to-date versi
 ## Tools
 To refine benchmarks and to determine the associated results the *Benchmark Refinement and Execution Wizard (BREW)* has been used. There are two versions available for download:
 - [BREW-Website](https://FoelliX.github.io/BREW) or [Github-Project](https://github.com/FoelliX/BREW) (Up-to-date versions)
-- [BREW](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Ftools&files=BREW.zip) *(Version used for the compution of the results below)*
+- [BREW](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Ftools&files=BREW.zip) *(Version used for the compution of the results below)*
 
 A documentation of the *Android App Analysis Query Langauge (AQL)* as well as the *AQL-System* using it is also obtainable online:
 - [AQL-System-Website](https://FoelliX.github.io/AQL-System) or [Github-Project](https://github.com/FoelliX/AQL-System) *(Up-to-date versions)*
-- [AQL-System](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Ftools&files=AQLSystem.zip) *(Version used by BREW to compute the results below)*
+- [AQL-System](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Ftools&files=AQLSystem.zip) *(Version used by BREW to compute the results below)*
 
 #### Remarks
 None of the six evaluated tools are contained in either of these tools.
@@ -63,9 +63,9 @@ Every download includes:
   - Logfile *(log.txt)*
 
 #### Download
-- [DroidBench (extended)](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=DroidBenchExtended.zip)
-- [DroidBench 3.0](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=DroidBench30.zip)
-- [DroidBench 2.0](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=DroidBench20.zip)
+- [DroidBench (extended)](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=DroidBenchExtended.zip)
+- [DroidBench 3.0](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=DroidBench30.zip)
+- [DroidBench 2.0](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=DroidBench20.zip)
 
 ### Extensions for DroidBench
 The Feature-Checking and Intent-Matching benchmark extensions can be downloaded here. Both are available for Android API 19 and 26.
@@ -83,10 +83,10 @@ Every download includes:
   - Logfile (log.txt)
 
 #### Download
-- [Feature-Checking (API 19)](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=FeatureChecking_API19.zip)
-- [Feature-Checking (API 26)](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=FeatureChecking_API26.zip)
-- [Intent-Matching (API 19)](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=IntentMatching_API19.zip)
-- [Intent-Matching (API 26)](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=IntentMatching_API26.zip)
+- [Feature-Checking (API 19)](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=FeatureChecking_API19.zip)
+- [Feature-Checking (API 26)](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=FeatureChecking_API26.zip)
+- [Intent-Matching (API 19)](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=IntentMatching_API19.zip)
+- [Intent-Matching (API 26)](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=IntentMatching_API26.zip)
 
 
 ### ICC-Bench
@@ -105,7 +105,7 @@ It includes:
   - Logfile *(log.txt)*
 
 #### Download
-- [ICC-Bench 2.0](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=ICCBench20.zip)
+- [ICC-Bench 2.0](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=ICCBench20.zip)
 
 ### DIALDroidBench
 The iteratively refined version of DIALDroidBench can be downloaded here. It includes:
@@ -120,7 +120,7 @@ The iteratively refined version of DIALDroidBench can be downloaded here. It inc
   - AQL-Answers per app (data/storage/*.xml)
 
 #### Download
-- [DIALDroidBench](https://uni-paderborn.sciebo.de/s/aH1jp12VOsG3HIn/download?path=%2Fbenchmarks&files=DIALDroidBench.zip)
+- [DIALDroidBench](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Fbenchmarks&files=DIALDroidBench.zip)
 
 
 
