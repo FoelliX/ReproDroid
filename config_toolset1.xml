@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+	<androidPlatforms>D:\Android\sdks\platforms</androidPlatforms>
+	<maxMemory>4</maxMemory>
+	<tools>
+		<tool name="Tool1" version="1">
+			<priority>1</priority>
+			<path>/not/important</path>
+			<run>/also/not/important</run>
+			<result>/guess/what</result>
+			<questions>IntraAppFlows</questions>
+			<instances>0</instances>
+			<memoryPerInstance>2</memoryPerInstance>
+		</tool>
+	</tools>
+	<preprocessors>
+		<tool name="Tool2" version="1">
+			<priority>1</priority>
+			<path>/not/important</path>
+			<run>/also/not/important</run>
+			<result>/guess/what</result>
+			<questions>COMBINE</questions>
+			<instances>0</instances>
+			<memoryPerInstance>2</memoryPerInstance>
+		</tool>
+	</preprocessors>
+</config>

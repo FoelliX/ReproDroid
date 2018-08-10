@@ -27,6 +27,8 @@ To refine benchmarks and to determine the associated results the *Benchmark Refi
 - [BREW-Website](https://FoelliX.github.io/BREW) or [Github-Project](https://github.com/FoelliX/BREW) (Up-to-date versions)
 - [BREW](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Ftools&files=BREW.zip) *(Version used for the compution of the results below)*
 
+A tutorial on how to fully load ReproDroid benchmark results can be found [here](https://github.com/FoelliX/BREW/wiki/ReproDroid)
+
 A documentation of the *Android App Analysis Query Langauge (AQL)* as well as the *AQL-System* using it is also obtainable online:
 - [AQL-System-Website](https://FoelliX.github.io/AQL-System) or [Github-Project](https://github.com/FoelliX/AQL-System) *(Up-to-date versions)*
 - [AQL-System](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Ftools&files=AQLSystem.zip) *(Version used by BREW to compute the results below)*
