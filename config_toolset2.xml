@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <config>
-	<androidPlatforms>D:\Android\sdks\platforms</androidPlatforms>
+	<androidPlatforms>/path/to/Android/platforms</androidPlatforms>
 	<maxMemory>4</maxMemory>
 	<tools>
 		<tool name="Tool1" version="1">
