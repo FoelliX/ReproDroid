@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="logo.png" width="500px"/>
+	<img src="logo.png" width="500px" />
 </p>
 
 # ReproDroid
@@ -127,13 +127,11 @@ The iteratively refined version of DIALDroidBench can be downloaded here. It inc
 
 
 ## Publications
-- *Do Android Taint Analysis Tools Keep their Promises?* (Felix Pauck, Eric Bodden, Heike Wehrheim)  
-Technical Report: https://arxiv.org/abs/1804.02903
+- *Do Android Taint Analysis Tools Keep Their Promises?* (Felix Pauck, Eric Bodden, Heike Wehrheim)  
+ESEC/FSE 2018 [https://dl.acm.org/citation.cfm?id=3236029](https://dl.acm.org/citation.cfm?id=3236029)
 
 # Contact
-**Felix Pauck**  
+**Felix Pauck** (FoelliX)  
 Paderborn University  
 fpauck@mail.uni-paderborn.de  
-[Homepage](https://cs.uni-paderborn.de/sms/team/group/people/felix-pauck)
-
-<a href="http://www.FoelliX.de" target="_blank"><img src="http://FoelliX.de/style/images/fx.png" width="200px" /></a>
+[http://www.FelixPauck.de](http://www.FelixPauck.de)
