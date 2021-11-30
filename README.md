@@ -5,6 +5,10 @@
 # ReproDroid
 ReproDroid is a framework which can be used to create, refine and execute reproducible benchmarks for Android app analysis tools.
 
+<p align="center">
+	<strong>!!! Update can be found in the Errata section below !!!</strong>
+</p>
+
 ## Toolchain
 The complete ReproDroid framework consists of BREW and its underlying AQL-System which uses the AQL.
 The picture below summarizes how the framework works.
@@ -25,7 +29,7 @@ In order to work with the framework, we suggest to download the up-to-date versi
 ## Tools
 To refine benchmarks and to determine the associated results the *Benchmark Refinement and Execution Wizard (BREW)* has been used. There are two versions available for download:
 - [BREW-Website](https://FoelliX.github.io/BREW) or [Github-Project](https://github.com/FoelliX/BREW) (Up-to-date versions)
-- [BREW](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Ftools&files=BREW.zip) *(Version used for the compution of the results below)*
+- [BREW](https://uni-paderborn.sciebo.de/s/ZmlRvtzI6pVYHVP/download?path=%2Ftools&files=BREW.zip) *(Version used for the computation of the results below)*
 
 A tutorial on how to fully load ReproDroid benchmark results can be found [here](https://github.com/FoelliX/BREW/wiki/ReproDroid)
 
@@ -126,9 +130,38 @@ The iteratively refined version of DIALDroidBench can be downloaded here. It inc
 
 
 
+## Errata
+All benchmarks above which are based on DroidBench contain four tiny bugs (mislabeled).
+
+| Category | Benchmark Case | Wrong Label | Correct Label |
+| -------- | -------------- | ----------- | ------------- |
+| Aliasing | SimpleAliasing1 			| Negative / Not-Expected Case 	| Positive / Expected Case 		|
+| UnreachableCode | UnreachableBoth 	| Positive / Expected Case 		| Negative / Not-Expected Case 	|
+| UnreachableCode | UnreachableSink1 	| Positive / Expected Case 		| Negative / Not-Expected Case 	|
+| UnreachableCode | UnreachableSource1 	| Positive / Expected Case 		| Negative / Not-Expected Case 	|
+
+Furthermore the results in the category Reflection were incorrectly reported.
+The filter included the category `Reflection_ICC` in the category `Reflection` - a simple (sub-)string matching mistake.
+(The results for most benchmarks and all tools above will be re-evaluated and published here asap - still might take a while.)
+
+### DroidBench 3.0 (updated) + TaintBench
+Here you find an updated version of the [DroidBench 3.0](http://FoelliX.de/downloads/benchmarks/data_droidbench30.zip) benchmark ([DroidBench website](https://github.com/secure-software-engineering/DroidBench/tree/develop)) and the new [TaintBench](http://FoelliX.de/downloads/benchmarks/data_taintbench10.zip) benchmark ([TaintBench website](https://TaintBench.github.io/)) - to open you need [BREW version 2.0.0](https://github.com/FoelliX/BREW/releases) or newer.
+This are the two benchmarks we recommend to use for your Android taint analysis tool evaluation.
+
+**Download**
+- [DroidBench 3.0](http://FoelliX.de/downloads/benchmarks/data_droidbench30.zip)
+- [TaintBench](http://FoelliX.de/downloads/benchmarks/data_taintbench10.zip)
+- [BREW](https://github.com/FoelliX/BREW/releases)
+
+
+
 ## Publications
 - *Do Android Taint Analysis Tools Keep Their Promises?* (Felix Pauck, Eric Bodden, Heike Wehrheim)  
 ESEC/FSE 2018 [https://dl.acm.org/citation.cfm?id=3236029](https://dl.acm.org/citation.cfm?id=3236029)
+- *Together Strong: Cooperative Android App Analysis* (Felix Pauck, Heike Wehrheim)  
+ESEC/FSE 2019 [https://dl.acm.org/citation.cfm?id=3338915](https://dl.acm.org/citation.cfm?id=3338915)
+- *TaintBench: Automatic real-world malware benchmarking of Android taint analyses* (Linghui Luo, Felix Pauck, ...) 
+EMSE 2022 [https://link.springer.com/article/10.1007%2Fs10664-021-10013-5](https://link.springer.com/article/10.1007%2Fs10664-021-10013-5)
 
 # Contact
 **Felix Pauck** (FoelliX)  
